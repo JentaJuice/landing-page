@@ -83,3 +83,14 @@ body {
   padding-right: 1rem;
   text-align: right;
 }
+
+@media only screen and (max-width: 600px) {
+  .footer {
+    flex-direction: column;
+  }
+
+  .footer .maker, .footer .copyright {
+    padding: .5rem 0 !important;
+    text-align: center !important;
+  }
+}
